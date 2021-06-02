@@ -49,7 +49,7 @@ python manage.py createsuperuser
 
 ## Notice before run the project
 
-- In the ./AgentManagement/settings.py, you should firstly input your own email address and password at the **EMAIL_HOST_USER** and **EMAIL_HOST_PASSWORD**.
+- In the ./AgentManagement/settings.py, you should firstly input your own email address and password at the **EMAIL_HOST_USER** and **EMAIL_HOST_PASSWORD** and figure out your email's host and port, which should be input at **EMAIL_HOST** and **EMAIL_PORT**.
 
 - You need to start debugging using Python: Django
 
