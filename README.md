@@ -61,6 +61,8 @@ python manage.py createsuperuser
 
     - http://127.0.0.1:8000/api/user/
 
+    - http://127.0.0.1:8000/api/user/<int:pk>/
+
     - http://127.0.0.1:8000/accounts/register/
 
     - http://127.0.0.1:8000/accounts/login/
