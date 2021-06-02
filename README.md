@@ -33,7 +33,7 @@ pip install django-registration
 pip install django-crispy-forms
 pip install requests
 pip install pillow
-pip install -m ./requirements.txt
+pip freeze > requirements.txt
 ```
 
 #### Run migrations is essential to Django
