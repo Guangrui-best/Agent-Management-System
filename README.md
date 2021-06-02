@@ -50,13 +50,8 @@ python manage.py createsuperuser
 ## Notice before run the project
 
 - In the ./AgentManagement/settings.py, you should firstly input your own email address and password at the **EMAIL_HOST_USER** and **EMAIL_HOST_PASSWORD** and figure out your email's host and port, which should be input at **EMAIL_HOST** and **EMAIL_PORT**
-
-- You can adjust the page size by changing the **PAGE_SIZE** in the **REST_FRAMEWORK** at ./AgentManagement/settings.py
-
 - You need to start debugging using Python: Django
-
 - When the program is running, the available website that you can visit is shown as below
-
     - http://127.0.0.1:8000
 
     - http://127.0.0.1:8000/admin/
