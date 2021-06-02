@@ -134,12 +134,15 @@ LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 
 # Twilio SendGrid
-SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_PORT = 587
-EMAIL_USER_TLS = True
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_API_KEY')
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+
+# Before run the program, you need to input your own email address and password below
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ""
+
+EMAIL_USER_TLS = False
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
