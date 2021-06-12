@@ -1,15 +1,10 @@
 # Agent Management System
 
 ## Main Features
-
 - Each agent (user) has information including username, email and unique id
-
 - It supports CRUD
-
 - It supports pagination
-
 - It supports searching by conditions. e.g. Search by agents' username
-
 - Each time when a user completes a successful registration, an email will be sent automatically to the user's registered email
 
 ## How to set up the project to run on your local machine?
